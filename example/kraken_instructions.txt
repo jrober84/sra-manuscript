@@ -1,0 +1,5 @@
+#Run Kraken on Assembly file
+kraken --db minikraken_20141208/ ERR1759247.fasta > ERR1759247.kraken;
+
+#Run Kraken translate on kraken file
+kraken-translate --db minikraken_20141208/ ERR1759247.kraken;
