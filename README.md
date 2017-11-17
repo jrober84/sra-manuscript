@@ -34,7 +34,7 @@ the kraken output so I specify that the output should include upto the 8th rank 
 python sumKrakenResults.py --krakenfile /Users/jrobertson/PycharmProjects/sra-manuscript/example/ERR1759247.txt --fastafile /Users/jrobertson/PycharmProjects/sra-manuscript/example/ERR1759247.fasta --tax_division 8
 
 |File|TaxaSlice|Total Genome Size|Filtered Genome Size|Taxon|PercentAbundance
-|----------------|----|-------|-------|------------------------------------------------------------------------------------------------------------------------|
+|----------------|----|-------|-------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |ERR1759247.fasta|0:8|4685246|4659423|root;cellular organisms;Bacteria;Proteobacteria;Gammaproteobacteria;Enterobacteriales;Enterobacteriaceae;Salmonella|100.0|
 
 **Note: NCBI taxonomy can have multiple taxonomic divisions so a slice of up to the 8th item for your taxon may not capture the genus because there are more/fewer taxonomic ranks. 
