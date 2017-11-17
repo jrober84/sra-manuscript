@@ -21,9 +21,13 @@ python sumKrakenResults.py --krakenfile ./example/ERR1759247.txt --fastafile ./e
 
 Results:
 
+
 |File|TaxaSlice|Total Genome Size|Filtered Genome Size|Taxon|PercentAbundance|
 |----------------|----|-------|-------|-------------------------------------------------------------------------------------------------------------------|----|
-|ERR1759247.fasta|0:8|4685246|4659423|root;cellular organisms;Bacteria;Proteobacteria;Gammaproteobacteria;Enterobacteriales;Enterobacteriaceae;Salmonella|100.0|
+|ERR1759247.fasta|Full|4685246|4659423|root;cellular organisms;Bacteria;Proteobacteria;Gammaproteobacteria;Enterobacteriales;Enterobacteriaceae;Salmonella;Salmonella enterica;Salmonella enterica subsp. enterica;Salmonella enterica subsp. enterica serovar Typhimurium|0.873455791|
+|ERR1759247.fasta|Full|4685246|4659423|root;cellular organisms;Bacteria;Proteobacteria;Gammaproteobacteria;Enterobacteriales;Enterobacteriaceae;Salmonella;Salmonella enterica;Salmonella enterica subsp. enterica;Salmonella enterica subsp. enterica serovar Enteritidis;Salmonella enterica subsp. enterica serovar Enteritidis str. P125109|96.50121914|
+|ERR1759247.fasta|Full|4685246|4659423|root;cellular organisms;Bacteria;Proteobacteria;Gammaproteobacteria;Enterobacteriales;Enterobacteriaceae;Salmonella;Salmonella enterica;Salmonella enterica subsp. enterica|2.472280366|
+|ERR1759247.fasta|Full|4685246|4659423|root;cellular organisms;Bacteria;Proteobacteria;Gammaproteobacteria;Enterobacteriales;Enterobacteriaceae;Salmonella;Salmonella enterica;Salmonella enterica subsp. enterica;Salmonella enterica subsp. enterica serovar Paratyphi C;Salmonella enterica subsp. enterica serovar Paratyphi C str. RKS4594|0.153044701|
 
 Filtering the output: The complete taxonomy can complicate interpreting results when you are only interested in the composition at the family, genus, species ranks. So sumKrakenResults allows you to select up to which numerical taxonomic rank you want to consider to reduce some of the complexity in the results. In this example, I want to know the genus composition of
 the kraken output so I specify that the output should include upto the 8th rank in the list. 
