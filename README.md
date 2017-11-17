@@ -20,7 +20,7 @@ Default useage: The full taxonomy of the kraken output will be used and contigs 
 python sumKrakenResults.py --krakenfile ./example/ERR1759247.txt --fastafile ./example/ERR1759247.fasta 
 
 Results:
-|File|TaxaSlice|Total Genome Size|Filtered Genome Size|Taxon|PercentAbundance
+|File|TaxaSlice|Total Genome Size|Filtered Genome Size|Taxon|PercentAbundance|
 |----------------|----|-------|-------|-------------------------------------------------------------------------------------------------------------------|----|
 |ERR1759247.fasta|Full|4685246|4659423|root;cellular organisms;Bacteria;Proteobacteria;Gammaproteobacteria;Enterobacteriales;Enterobacteriaceae;Salmonella;Salmonella enterica;Salmonella enterica subsp. enterica;Salmonella enterica subsp. enterica serovar Typhimurium|0.873455790556|
 |ERR1759247.fasta|Full|4685246|4659423|root;cellular organisms;Bacteria;Proteobacteria;Gammaproteobacteria;Enterobacteriales;Enterobacteriaceae;Salmonella;Salmonella enterica;Salmonella enterica subsp. enterica;Salmonella enterica subsp. enterica serovar Enteritidis;Salmonella enterica subsp. enterica serovar Enteritidis str. P125109|96.5012191424|
@@ -32,7 +32,7 @@ the kraken output so I specify that the output should include upto the 8th rank 
 
 python sumKrakenResults.py --krakenfile /Users/jrobertson/PycharmProjects/sra-manuscript/example/ERR1759247.txt --fastafile /Users/jrobertson/PycharmProjects/sra-manuscript/example/ERR1759247.fasta --tax_division 8
 
-|File|TaxaSlice|Total Genome Size|Filtered Genome Size|Taxon|PercentAbundance
+|File|TaxaSlice|Total Genome Size|Filtered Genome Size|Taxon|PercentAbundance|
 |----------------|----|-------|-------|-------------------------------------------------------------------------------------------------------------------|----|
 |ERR1759247.fasta|0:8|4685246|4659423|root;cellular organisms;Bacteria;Proteobacteria;Gammaproteobacteria;Enterobacteriales;Enterobacteriaceae;Salmonella|100.0|
 
