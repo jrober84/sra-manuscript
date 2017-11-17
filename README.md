@@ -24,6 +24,7 @@ Results:
 |File|TaxaSlice|Total Genome Size|Filtered Genome Size|Taxon|PercentAbundance|
 |----------------|----|-------|-------|-------------------------------------------------------------------------------------------------------------------|----|
 |ERR1759247.fasta|0:8|4685246|4659423|root;cellular organisms;Bacteria;Proteobacteria;Gammaproteobacteria;Enterobacteriales;Enterobacteriaceae;Salmonella|100.0|
+
 Filtering the output: The complete taxonomy can complicate interpreting results when you are only interested in the composition at the family, genus, species ranks. So sumKrakenResults allows you to select up to which numerical taxonomic rank you want to consider to reduce some of the complexity in the results. In this example, I want to know the genus composition of
 the kraken output so I specify that the output should include upto the 8th rank in the list. 
 
